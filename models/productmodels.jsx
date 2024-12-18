@@ -1,4 +1,3 @@
-const { type } = require('express/lib/response')
 const mongoose=require('mongoose')
 const ProductSchema = mongoose.Schema(
     {
@@ -26,4 +25,4 @@ const ProductSchema = mongoose.Schema(
     }
 )
 const Product=mongoose.model('Product',ProductSchema);
-module.exports=Product;
+module.exports= Product;
