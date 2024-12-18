@@ -1,7 +1,7 @@
 const express = require('express')
 const mongoose = require('mongoose');
 const Product =require('./models/productmodels.jsx');
-const productRoute = require('./routes/productroutes.jsx')
+const productRoute = require('./routes/productsroutes.jsx')
 const app = express()
 
 app.use(express.json());
